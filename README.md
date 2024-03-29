@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Task-Tracker-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Introduction
+Welcome to the React Task Board application! This application helps you manage your tasks efficiently by providing a user-friendly interface to add, edit, filter, and sort tasks based on various criteria.
 
-## Available Scripts
+## Features
+Task Management: Add new tasks, edit existing tasks, and delete tasks.
+Filtering: Filter tasks by assignee, priority, and date range.
+Sorting: Sort tasks by priority.
+Profile Picture: Change your profile picture with an option to remove it.
+Responsive Design: The application is designed to work seamlessly across various devices.
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm start`
+React: The frontend of the application is built using React, a popular JavaScript library for building user interfaces.
+localStorage: Tasks and profile images are stored locally using the browser's localStorage API.
+CSS: Styling is done using CSS for a visually appealing interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run the React Task Board application locally, follow these steps:
 
-### `npm test`
+Clone this repository to your local machine using git clone.
+Navigate to the project directory in your terminal.
+Install dependencies by running npm install.
+Start the development server with npm start.
+Open your browser and navigate to http://localhost:3000 to view the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+Adding a Task: Click on the "Add New Task" button in the Filter Section, fill in the details, and click "Add Task".
+Editing a Task: Click on the ellipsis (...) button next to a task, then click "Edit" in the popup, make changes, and click "Save Changes".
+Deleting a Task: Click on the ellipsis (...) button next to a task, then click "Delete" in the popup.
+Filtering Tasks: Use the filter inputs in the Filter Section to filter tasks based on assignee, priority, and date range.
+Sorting Tasks: Use the dropdown in the Sorting Section to sort tasks by priority.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions are welcome! If you have any suggestions, feature requests, or find any issues, feel free to open an issue or create a pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
