@@ -1,0 +1,9 @@
+.ParentComponent{
+    border: 2px solid #565656;
+    border-radius: 8px;
+    padding: 5px;
+    min-height: 30px; 
+    overflow-wrap: break-word;
+    padding: 30px 50px;
+    margin-top: 30px;
+}

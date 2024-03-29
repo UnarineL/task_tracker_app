@@ -1,0 +1,139 @@
+.task-category-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.task-category-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.popup {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.task-category-header {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #c5c5c5;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.category-container {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.category-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.task-card {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.task-details {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.task-details p {
+  margin: 5px 0;
+}
+
+.task-options {
+  display: flex;
+  justify-content: space-between;
+  float: right;
+}
+
+.popup button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.popup button:hover {
+  background-color: #0056b3;
+}
+
+.task-title {
+  font-size: 0.9rem;
+  float: left;  
+}
+
+.task.header{
+  position: relative;
+  margin: 0%;
+}
+.gradient-line {
+  position: absolute;
+  left: 0;
+  bottom: -3.5px;
+  width: calc(100% - 0.9rem); /* Adjust for task title and priority width */
+  height: 3.5px;
+  background-image: linear-gradient(to right, rgb(18, 89, 182), rgb(10, 22, 93), rgb(0, 115, 128));
+}
+.task-priority {
+  float: right;
+  font-size: 0.7rem;
+  padding: 2px 5px; 
+  border: 1px solid #007bff; 
+  border-radius: 5px;
+  color: #007bff;
+}
+  .task-description{
+    font-size: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    min-height: 30px; 
+    overflow-wrap: break-word
+  }
+.task-assignee{
+  font-size: 0.8rem;
+  float: left;
+}
+
+.task-status-border {
+  text-align: center;
+  margin-top: 30px;
+}
+.task-status{
+  font-size: 0.8rem;
+  display: inline-block;
+  padding: 5px 10px; 
+  border: 1px solid #007bff; 
+  border-radius: 5px;
+  color: #007bff; 
+  cursor: pointer; 
+  transition: background-color 0.3s, color 0.3s;
+}
+.task-header-name{
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,34 @@
+.filter-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+.filter-content {
+    display: flex;
+    align-items: center;
+}
+.add-task-button{
+  float: right;
+}
+.filter-section h4 {
+    margin-right: 10px; 
+}
+.filter-button{
+  margin: 10px;
+  display: inline-block;
+  padding: 5px 10px; 
+  border: 1px solid #007bff; 
+  border-radius: 5px;
+  color: white;
+  background-color: #007bff;
+  cursor: pointer; 
+}
+.new-task-button{
+  display: inline-block;
+  padding: 5px 10px; 
+  border: 1px solid #007bff; 
+  border-radius: 5px;
+  color: white;
+  background-color: #007bff; 
+  cursor: pointer; 
+}
