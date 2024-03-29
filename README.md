@@ -1,6 +1,6 @@
 # Task-Tracker-App
 
-##Introduction
+## Introduction
 Welcome to the React Task Board application! This application helps you manage your tasks efficiently by providing a user-friendly interface to add, edit, filter, and sort tasks based on various criteria.
 
 ## Features
